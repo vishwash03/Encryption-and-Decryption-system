@@ -1,2 +1,2 @@
-# Encryption-and-Decryption-system
-it is a  sample system of encoding and decoding 
+# encryption and decryption system
+how the encyption  and decryption system work 

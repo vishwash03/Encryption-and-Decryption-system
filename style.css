@@ -1,0 +1,109 @@
+/* 🌄 Page background */
+body{
+  margin:0;
+  height:100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+
+  background-image: url("background.jpeg"); /* add your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* 🔮 Glass container */
+.box, .home-box{
+  width:360px;
+  padding:25px;
+  border-radius:18px;
+
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  box-shadow:0 8px 32px rgba(0,0,0,0.35);
+  border:1px solid rgba(255,255,255,0.25);
+
+  color:#ffffff;
+}
+
+/* 🧾 Headings */
+h1{
+  
+  margin-top: 20px;
+  color:#000000;
+  font-weight:600;
+  letter-spacing:1px;
+  text-align:center;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+.wrapper{
+  text-align:center;
+}
+
+/* Heading outside box */
+.wrapper h1{
+  margin-top:20px;
+  color:#000000;
+  font-size:26px;
+  font-weight:600;
+  letter-spacing:1px;
+  text-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+/* ✏️ Textareas */
+textarea{
+  width:100%;
+  height:90px;
+  padding:12px;
+  margin:12px 0;
+
+  border-radius:12px;
+  border:none;
+  outline:none;
+
+  background: rgba(255,255,255,0.25);
+  color:#fff;
+  font-size:14px;
+}
+
+textarea::placeholder{
+  color:rgba(255,255,255,0.8);
+}
+
+/* 🔘 Buttons */
+button{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+
+  border:none;
+  border-radius:14px;
+
+  background: linear-gradient(135deg, #ff7a18, #ffb347);
+  color:#fff;
+
+  font-size:15px;
+  font-weight:600;
+  cursor:pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  transform: translateY(-2px);
+  box-shadow:0 6px 20px rgba(0,0,0,0.4);
+}
+
+/* ⬅ Back button */
+.back{
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+/* 🏠 Home buttons spacing */
+.home-box button{
+  margin-top:16px;
+}
+
